@@ -1,7 +1,7 @@
 {
   "name": "telegram-financial-bot",
   "version": "1.0.0",
-  "description": "Bot financeiro com botões e relatórios",
+  "description": "Bot financeiro completo com voz, imagem e relatórios",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -10,6 +10,11 @@
     "node-telegram-bot-api": "^0.64.0",
     "dotenv": "^16.3.1",
     "pdfkit": "^0.14.0",
-    "fs": "0.0.1-security"
+    "axios": "^1.5.0",
+    "form-data": "^4.0.0",
+    "tesseract.js": "^4.1.1",
+    "node-fetch": "^3.3.2",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   }
 }
